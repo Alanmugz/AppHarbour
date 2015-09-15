@@ -9,7 +9,9 @@ type ValuesController() =
     inherit ApiController()
 
     // GET /api/values
-    member x.Get() = [| "value1"; "value2" |] |> Array.toSeq
+    member x.Get() = 
+        Rallyresults.Main.start |> ignore
+        [| "value1"; "value2" |] |> Array.toSeq
     // GET /api/values/5
     member x.Get (id:int) = "value"
     // POST /api/values
