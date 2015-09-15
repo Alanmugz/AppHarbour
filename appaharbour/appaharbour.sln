@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "appaharbourWebApi", "appaharbour\appaharbourWebApi\appaharbourWebApi.csproj", "{C4891C29-68CB-41D6-A5AA-47017B057878}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "appaharbourWebAppApi", "appaharbour\appaharbourWebAppApi\appaharbourWebAppApi.fsproj", "{A999575F-C66E-42BF-A70F-655D4C3F0069}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4891C29-68CB-41D6-A5AA-47017B057878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4891C29-68CB-41D6-A5AA-47017B057878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4891C29-68CB-41D6-A5AA-47017B057878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4891C29-68CB-41D6-A5AA-47017B057878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A999575F-C66E-42BF-A70F-655D4C3F0069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A999575F-C66E-42BF-A70F-655D4C3F0069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A999575F-C66E-42BF-A70F-655D4C3F0069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A999575F-C66E-42BF-A70F-655D4C3F0069}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
