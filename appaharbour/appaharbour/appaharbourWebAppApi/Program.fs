@@ -21,7 +21,7 @@ module Types =
 //    open System
 //    open System.IO
 //
-//    let WriteToFile(format:string) =   
+//    let WriteToFile(format:string) = 
 //        use streamWriter = new StreamWriter("C:\Users\soundstore1\Desktop\logger.log", true)
 //        //let file = FileInfo("C:\Users\soundstore1\Desktop\logger.log")
 //        streamWriter.WriteLine(format)
@@ -152,7 +152,7 @@ module Main =
             body
             |> Seq.skip 2
             |> Seq.filter (fun x -> x.InnerText().Contains("Back to Index") |> not)
-            |> Seq.choose (fun x -> 
+            |> Seq.choose (fun (x : HtmlNode) -> 
                     x.TryGetAttribute("href")
                     |> Option.map (fun a -> a.Value())
                     |> Option.map(fun x -> x.Substring(x.LastIndexOf("=")+1, x.Length - (x.LastIndexOf("=")+1)))
